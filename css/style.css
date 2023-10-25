@@ -1,0 +1,159 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+section {
+    padding: 50px;
+    border: 3px solid lightcoral;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    border: 5px dashed red;
+}
+
+/* 
+    SECTION 1
+*/
+.margin-bottom-1 {
+    margin-bottom: 30px;
+}
+
+.margin-top-1 {
+    margin-top: 50px;
+}
+
+/* 
+    SECTION 2
+*/
+#section-2 p {
+    border: 1px dotted blue;
+}
+ 
+#section-2 p .par-1 {
+    color: greenyellow;
+}
+
+#section-2 p.par-1 {
+    color: red;
+}
+
+#section-2 h2,
+#section-2 p.par-1,
+#section-2 div.par-1 {
+    padding: 20px;
+}
+
+#section-2 .par-3.par-1.par-2 {
+    /* Questo si applica bene */
+    font-size: 40px;
+}
+
+#section-2.par-1.par-2.par-3 {
+    /* Questo non si applica a nessuno */
+    font-weight: bold;
+}
+
+#section-2 .par-1,
+.par-2,
+.par-3 {
+    background-color: aqua;
+}
+
+#section-2 .par-1,
+#section-2 .par-2,
+#section-2 .par-3 {
+    margin: 60px;
+}
+
+/* 
+    SECTION 3
+*/
+a {
+    color: red;
+}
+
+#section-3 a {
+    font-size: 25px;
+}
+
+[href] {
+    text-decoration: none;
+}
+
+[href="#"] {
+    background-color: aquamarine;
+}
+
+a[href] {
+    border: 3px dashed blue;
+}
+
+a[href][target] {
+    display: block;
+    padding: 20px;
+}
+
+[alessio="Google"] {
+    margin: 200px;
+}
+
+/*
+    SECTION 4
+*/
+#hover-div:hover {
+    color: blue;
+}
+
+#focus-input:focus {
+    padding: 50px;
+}
+
+#active-button:active {
+    color: lightblue;
+}
+
+/* 
+    SECTION 5
+*/
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(3) {
+    color: yellow;
+}
+
+li:first-of-type {
+    color: lightcoral;
+}
+
+li:last-of-type {
+    color: aquamarine;
+}
+
+li:nth-of-type(3) {
+    color: purple;
+}
+
+ul :first-child {
+    padding: 20px;
+}
+
+ul > p {
+    border: 3px dashed green;
+}
